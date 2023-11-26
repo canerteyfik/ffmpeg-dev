@@ -3,7 +3,7 @@
 Bu reponun amacı ffmpegin kurulumundan başlayarak geliştirme süreci boyunca bir kaynak sağlamaktır.
 Süreç boyunca windows işletim sitemi kullanılacaktır.
 
-# ADIM 1 FFMPEG KURULUMU
+# ADIM 1- FFMPEG KURULUMU
 
 1- ffmpegin kurulumu için vcpkg (https://vcpkg.io/en/) aracından faydalanılacaktır.
 vckpkg C/C++ dilleri için açık kaynaklı bir paket yöneticisidir.
@@ -11,17 +11,17 @@ vckpkg C/C++ dilleri için açık kaynaklı bir paket yöneticisidir.
 2-CMD üzerinden vcpkg'yi kurmak için 
 "git clone https://github.com/Microsoft/vcpkg.git" komutunu çalıştırın
 
-3- cd vcpkg
+3- "cd vcpkg"
 
-4- bootstrap-vcpkg.bat adımlarından sonra vcpkg kurulumları bitti şimdi ffmpegin kurulumuna devam edeceğiz.
+4- "bootstrap-vcpkg.bat" adımlarından sonra vcpkg kurulumları bitti şimdi ffmpegin kurulumuna devam edeceğiz.
 
-5- vcpkg install ffmpeg:x64-windows komutu ile ihtiyacımız olan .dll .lib .h dosyaları oluşacaktır
+5- "vcpkg install ffmpeg:x64-windows" komutu ile ihtiyacımız olan .dll .lib .h dosyaları oluşacaktır
 
-6- mevcut_dizin\vcpkg\installed\x64-windows yolunun altında ffmpeg için gerekli olan dosylar oluştu.
+6- "mevcut_dizin\vcpkg\installed\x64-windows" yolunun altında ffmpeg için gerekli olan dosylar oluştu.
 
 # NOT Kurulum yapacağımız klasör yolunda Türkçe karakterler ve boşluk karakterleri hata vermektedir. Vcpkg ile çalışırken buna dikkat edin. 
 
-# ADIM 2 FFMPEG VISUAL STUDIO AYARLARI
+# ADIM 2- FFMPEG VISUAL STUDIO AYARLARI
 
 1- Header dosyalarını ve .lib dosyalarını proje ayarlarından dahil etmeliyiz.
 
@@ -40,9 +40,9 @@ pkgconf.lib
 swresample.lib
 swscale.lib
 
-2-Son olarak mevcut_dizin\vcpkg\installed\x64-windows\debug\bin yolunda bulunan .dll dosyalarını projemizde bulunan exe ile aynı yere koyalım.
+2-Son olarak "mevcut_dizin\vcpkg\installed\x64-windows\debug\bin" yolunda bulunan .dll dosyalarını projemizde bulunan exe ile aynı yere koyalım.
 
-3-mevcut_dizin\vcpkg\installed\x64-windows yolunun altındaki herhangi bir örnekle bağımlılıkları test edelim.
+3-"mevcut_dizin\vcpkg\installed\x64-windows" yolunun altındaki herhangi bir örnekle bağımlılıkları test edelim.
 
 
 
