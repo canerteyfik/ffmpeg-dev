@@ -25,11 +25,11 @@ vckpkg C/C++ dilleri için açık kaynaklı bir paket yöneticisidir.
 
 1- Header dosyalarını ve .lib dosyalarını proje ayarlarından dahil etmeliyiz.
 
-![include](https://github.com/canerteyfik/ffmpeg-dev/assets/74292890/ea870f32-4cda-4c11-bbc9-6518a440fba3)
+![include](https://github.com/canerteyfik/ffmpeg-dev/assets/74292890/a0c0a3f3-57c0-4c83-86af-0e5993fcfae9)
 
-![lib](https://github.com/canerteyfik/ffmpeg-dev/assets/74292890/eca6851a-bf4d-4110-8259-f999f0ce99fb)
+![lib](https://github.com/canerteyfik/ffmpeg-dev/assets/74292890/c4eb6b40-34a9-476f-999e-22dc5fb6ba32)
 
-![lib_2](https://github.com/canerteyfik/ffmpeg-dev/assets/74292890/0b8a157f-8e33-44e1-8d29-5bc7afdc4342)
+![lib_2](https://github.com/canerteyfik/ffmpeg-dev/assets/74292890/3d634eeb-9310-4c05-a7c4-53396e498693)
 
 avcodec.lib
 avdevice.lib
