@@ -9,13 +9,13 @@ Süreç boyunca windows işletim sitemi kullanılacaktır.
 vckpkg C/C++ dilleri için açık kaynaklı bir paket yöneticisidir.
 
 2-CMD üzerinden vcpkg'yi kurmak için 
-"git clone https://github.com/Microsoft/vcpkg.git" komutunu çalıştırın
+`git clone https://github.com/Microsoft/vcpkg.git` komutunu çalıştırın
 
-3- "cd vcpkg"
+3- `cd vcpkg`
 
-4- "bootstrap-vcpkg.bat" adımlarından sonra vcpkg kurulumları bitti şimdi ffmpegin kurulumuna devam edeceğiz.
+4- `bootstrap-vcpkg.bat` adımlarından sonra vcpkg kurulumları bitti şimdi ffmpegin kurulumuna devam edeceğiz.
 
-5- "vcpkg install ffmpeg:x64-windows" komutu ile ihtiyacımız olan .dll .lib .h dosyaları oluşacaktır
+5- `vcpkg install ffmpeg:x64-windows` komutu ile ihtiyacımız olan .dll .lib .h dosyaları oluşacaktır
 
 6- "mevcut_dizin\vcpkg\installed\x64-windows" yolunun altında ffmpeg için gerekli olan dosylar oluştu.
 
